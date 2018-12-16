@@ -38,13 +38,13 @@ PODS:
     - EXFileSystemInterface
   - EXFileSystemInterface (1.1.0):
     - EXCore
-  - EXFont (1.1.0):
-    - EXCore
-    - EXFontInterface
   - EXFontInterface (1.1.0):
     - EXCore
   - EXImageLoaderInterface (1.1.0):
     - EXCore
+  - EXLocation (1.1.0):
+    - EXCore
+    - EXPermissionsInterface
   - EXPermissions (1.2.0):
     - EXCore
     - EXPermissionsInterface
@@ -192,9 +192,9 @@ DEPENDENCIES:
   - EXFaceDetectorInterface (from `../node_modules/expo-face-detector-interface/ios`)
   - EXFileSystem (from `../node_modules/expo-file-system/ios`)
   - EXFileSystemInterface (from `../node_modules/expo-file-system-interface/ios`)
-  - EXFont (from `../node_modules/expo-font/ios`)
   - EXFontInterface (from `../node_modules/expo-font-interface/ios`)
   - EXImageLoaderInterface (from `../node_modules/expo-image-loader-interface/ios`)
+  - EXLocation (from `../node_modules/expo-location/ios`)
   - EXPermissions (from `../node_modules/expo-permissions/ios`)
   - EXPermissionsInterface (from `../node_modules/expo-permissions-interface/ios`)
   - ExpoKit/Core (from `http://github.com/expo/expo.git`, tag `ios/2.9.0`)
@@ -260,12 +260,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-file-system/ios"
   EXFileSystemInterface:
     :path: "../node_modules/expo-file-system-interface/ios"
-  EXFont:
-    :path: "../node_modules/expo-font/ios"
   EXFontInterface:
     :path: "../node_modules/expo-font-interface/ios"
   EXImageLoaderInterface:
     :path: "../node_modules/expo-image-loader-interface/ios"
+  EXLocation:
+    :path: "../node_modules/expo-location/ios"
   EXPermissions:
     :path: "../node_modules/expo-permissions/ios"
   EXPermissionsInterface:
@@ -309,9 +309,9 @@ SPEC CHECKSUMS:
   EXFaceDetectorInterface: 8727fe51fbd189a94ccd70152a25cdef913a0ae5
   EXFileSystem: 0872826fd9ebc7d842a5e389b088c93f5b9fab88
   EXFileSystemInterface: 8e1225e4e1776ea7abf997a7ded593b4b8e86863
-  EXFont: 5c0220788732ef1c4bfe0f5079a003b4c64add95
   EXFontInterface: 06126ec4f6a67415426074c3383a82b241f087c1
   EXImageLoaderInterface: 3f460f6ff344ba6c4e00621806c0d1d76249cd8f
+  EXLocation: c686b2b139bea46c653a96f62dc49e47c9b08fe5
   EXPermissions: dd31cb432c078eed1f4c1e290bc32649d5280bd3
   EXPermissionsInterface: 76f80a0dcd16afde36498e3d3aa168cb43999558
   ExpoKit: 56c02da01a88a33dcbac95a375b1fe503a9245a1
@@ -335,6 +335,6 @@ SPEC CHECKSUMS:
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: 8b5321e8d5c79fc9b8ed21404a38c5a63e9f3675
+PODFILE CHECKSUM: d1f0e257aa5ac172d69fbe713d1cea340c6c65d2
 
 COCOAPODS: 1.5.3
