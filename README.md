@@ -47,6 +47,7 @@ pod 'EXSMS',
 Using [this script](https://github.com/google/cocoapods-size) I measured all of the Pods in an ExpoKit project. 
 Here is a breakdown of the results: [Neat-Spread-Sheet](https://docs.google.com/spreadsheets/d/1klwEJoVJ6mvNqGFniF_QKnwK5_kfRMLDM_FopFnnd7E/edit?usp=sharing).
 
+![picture so the readme looks fuller](https://github.com/EvanBacon/ExpoKit-smaller-binary-example/blob/master/assets/cocoapod_preview.png?raw=true)
 
 
 
