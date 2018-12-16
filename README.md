@@ -54,7 +54,7 @@ You may have noticed a bunch of Pods with the `interface` suffix. These cannot b
 Using [this script](https://github.com/google/cocoapods-size) I measured all of the Pods in an ExpoKit (v30) project. 
 Here is a breakdown of the results: [Neat-Spread-Sheet](https://docs.google.com/spreadsheets/d/1klwEJoVJ6mvNqGFniF_QKnwK5_kfRMLDM_FopFnnd7E/edit?usp=sharing).
 
-Ideally these modules would be bundled in to their own Expo Unimodules, that way you can remove them! 😄 For instance `expo-face-detector` is removable which saves you 43mb. (in the case of FaceDetector you need to detach to use it anyways `expo build` doesn't bundle it by default)
+Ideally these modules would be bundled into their own Expo Unimodules, that way you can remove them! 😄 For instance `expo-face-detector` is removable which saves you 43mb. (in the case of FaceDetector you need to detach to use it anyways `expo build` doesn't bundle it by default)
 
 As you can see from the chart below; Google Maps (~15mb) & Facebook (~5.5mb) would be good libraries to roll into removable unimodules.
 
